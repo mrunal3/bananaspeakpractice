@@ -1,0 +1,23 @@
+{
+  "name": "bananaspeakpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://mrunal3.github.io/bananaspeakpractice/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -b deploy -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrunal3/bananaspeakpractice.git"
+  },
+  "author": "Mrunal Alatkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrunal3/bananaspeakpractice/issues"
+  }
+}

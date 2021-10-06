@@ -61,6 +61,8 @@ button {
     max-width: 330px;
     text-align: center;
     margin: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .textCenter {
@@ -71,8 +73,26 @@ button {
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
     background-color: #F2C94C;
+    position: relative;
+    z-index: 1;
 }
 
 h1 {
     margin-block: 10px;
+}
+
+.background-image {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:url(images/Minions_characters.png);
+	background-size:cover;
+	z-index:1;
+	-webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
 }
